@@ -1362,6 +1362,8 @@ find_codec:
 	/* no, then find CODEC from registered CODECs*/
 	list_for_each_entry(codec, &codec_list, list) {
 #ifdef CODEC_NAME_CMP
+		p_codec_name = tmp_codec_name;
+		p_dai_codec_name = tmp_dai_codec_name;
 		strcpy(p_codec_name,codec->name);
 		strcpy(p_dai_codec_name,dai_link->codec_name);		
 #endif		
