@@ -73,6 +73,9 @@ config MACH_RK30_BOX_PIZZA
 	
 config MACH_RK30_BOX_HOTDOG
 	bool "RK30 itv box hotdog board"
+
+config MACH_MARSBOARD
+	bool "MarsBoard RK3066 PX2"
 		
 
 config MACH_RK30_PHONE_LOQUAT
